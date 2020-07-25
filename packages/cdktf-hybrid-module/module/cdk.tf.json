@@ -1,0 +1,42 @@
+{
+  "//": {
+    "metadata": {
+      "version": "0.0.12",
+      "stackName": "cdktf-hybrid-module"
+    }
+  },
+  "resource": {
+    "aws_instance": {
+      "cdktfhybridmodule_Custom_ubuntu2_1EBEFDC1": {
+        "ami": "ami-0ff8a91507f77f867",
+        "availability_zone": "us-east-1a",
+        "instance_type": "t3.nano",
+        "//": {
+          "metadata": {
+            "path": "cdktf-hybrid-module/Custom/ubuntu2",
+            "uniqueId": "cdktfhybridmodule_Custom_ubuntu2_1EBEFDC1",
+            "stackTrace": [
+              "new TerraformElement (/Users/sebastian/projects/cdk/modules/node_modules/cdktf/lib/terraform-element.js:10:19)",
+              "new TerraformResource (/Users/sebastian/projects/cdk/modules/node_modules/cdktf/lib/terraform-resource.js:9:9)",
+              "new Instance (/Users/sebastian/projects/cdk/modules/packages/cdktf-hybrid-module/imports/providers/aws/instance.js:13:9)",
+              "new CustomInstance (/Users/sebastian/projects/cdk/modules/packages/cdktf-hybrid-module/lib/construct.js:10:25)",
+              "new MyStack (/Users/sebastian/projects/cdk/modules/packages/cdktf-hybrid-module/lib/module.js:8:24)",
+              "Object.<anonymous> (/Users/sebastian/projects/cdk/modules/packages/cdktf-hybrid-module/lib/module.js:15:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1118:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1138:10)",
+              "Module.load (internal/modules/cjs/loader.js:982:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:875:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "output": {
+    "cdktfhybridmodule_arn_788D4ED0": {
+      "value": "${aws_instance.cdktfhybridmodule_Custom_ubuntu2_1EBEFDC1.arn}"
+    }
+  }
+}
