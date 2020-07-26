@@ -14,6 +14,8 @@ While this hybrid use-case isn't explictly supported in the Terraform CDK (`cdkt
 - Release the [construct](./packages/cdktf-hybrid-module/lib/construct.ts) as part of the npm package
 - As bonus, package the Terraform JSON as well, so you could use NPM as module manager
 
+![cdktf-and-terraform](./cdktf-and-terraform.png)
+
 ## Examples
 
 - [cdktf construct](./examples/cdktf-example)
