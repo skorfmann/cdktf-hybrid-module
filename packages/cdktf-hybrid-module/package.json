@@ -38,7 +38,7 @@
     "@types/node": "^14.0.26",
     "cdktf-cli": "0.0.12",
     "typescript": "^3.9.7",
-    "cdktf": "^0.0.12",
+    "cdktf": "0.0.12",
     "constructs": "^3.0.4"
   }
 }
