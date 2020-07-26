@@ -14,6 +14,12 @@ While this hybrid use-case isn't explictly supported in the Terraform CDK (`cdkt
 - Release the [construct](./packages/cdktf-hybrid-module/lib/construct.ts) as part of the npm package
 - As bonus, package the Terraform JSON as well, so you could use NPM as module manager
 
+## Examples
+
+- [cdktf construct](./examples/cdktf-example)
+- [Terraform module](./examples/terraform)
+- [Terraform module npm](./examples/terraform-npm)
+
 ## Current Limitations
 
 - Outputs are already fully supported by `cdktf` but due to the random naming a bit hard to use. There' an [open issue](https://github.com/hashicorp/terraform-cdk/issues/247) to address this
