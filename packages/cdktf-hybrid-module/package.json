@@ -15,6 +15,11 @@
     "url": "https://github.com/skorfmann/cdktf-hybrid-module.git",
     "directory": "packages/cdktf-hybrid-module"
   },
+  "keywords": [
+    "cdk",
+    "cdktf",
+    "constructs"
+  ],
   "scripts": {
     "get": "cdktf get",
     "build": "yarn get && tsc && yarn synth",
