@@ -24,3 +24,4 @@ While this hybrid use-case isn't explictly supported in the Terraform CDK (`cdkt
 
 - [ ] Add [jsii](https://cdk.tf/jsii) for polyglot package
 - [ ] Add unit tests
+- [ ] Come up with a more realistic example for the construct
