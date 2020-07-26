@@ -25,7 +25,7 @@ While this hybrid use-case isn't explictly supported in the Terraform CDK (`cdkt
 ## Current Limitations
 
 - Outputs are already fully supported by `cdktf` but due to the random naming a bit hard to use. There' an [open issue](https://github.com/hashicorp/terraform-cdk/issues/247) to address this
-- Variables aren't directly supported in `cdktf`, but can still be done with [escape hatches](https://cdk.tf/escape-hatche). There's an [open issue](https://github.com/hashicorp/terraform-cdk/issues/249)
+- Variables aren't directly supported in `cdktf`, but can still be done with [escape hatches](https://cdk.tf/escape-hatch). There's an [open issue](https://github.com/hashicorp/terraform-cdk/issues/249)
 - Since there aren't official prebuilt provider packages at the moment, this has to inline the generated constructs. That's the biggest drawback at the moment, but the work to improve this is underway - see this [open issue](https://github.com/hashicorp/terraform-cdk/issues/98).
 
 ## Next Iteration
