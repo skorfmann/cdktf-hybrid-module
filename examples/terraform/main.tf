@@ -4,6 +4,12 @@ provider "aws" {
 
 module "instance" {
   source = "../../packages/cdktf-hybrid-module/module"
+
+  instance_type = "t3.nano"
+
+  tags = {
+    "CDKTF" = "IS AWESOME"
+  }
 }
 
 output "instance_arn" {
