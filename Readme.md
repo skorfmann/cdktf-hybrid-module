@@ -31,3 +31,11 @@ While this hybrid use-case isn't explictly supported in the Terraform CDK (`cdkt
 - [ ] Add [jsii](https://cdk.tf/jsii) for polyglot package
 - [ ] Add unit tests
 - [ ] Come up with a more realistic example for the construct
+
+## Conclusion
+
+While it's not the best user experience at this point, I think this demonstrates that the [Terraform CDK](https://cdkt.tf) is capable of distributing hybrid modules. When the various issues around this topic are fixed, it'll be actually a pretty good user experience from my point of view.
+
+## Contributions
+
+Contributions to this repository are more than welcome!
