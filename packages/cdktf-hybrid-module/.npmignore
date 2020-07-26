@@ -1,0 +1,12 @@
+*.ts
+
+!*.d.ts
+!*.js
+!.jsii
+
+test
+
+**/.terraform
+cdktf.json
+help
+tsconfig.json
