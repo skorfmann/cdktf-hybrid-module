@@ -8,6 +8,19 @@ This repo demonstratest the usage of a [cdktf](https://cdk.tf) construct package
 
 While this hybrid use-case isn't explictly supported in the Terraform CDK (`cdktf`) at the moment, it's totally possible do achieve this already.
 
+## Getting started
+
+```
+git clone git@github.com:skorfmann/cdktf-hybrid-module.git
+cd cdktf-hybrid-module
+yarn
+yarn build
+cd examples/cdktf-example
+$(yarn bin)/cdktf diff
+```
+
+NB: The last step (`cdktf diff`) expects valid AWS credentials in ENV
+
 ## The general idea
 
 - Synthesize a [stack without a provider](./packages/cdktf-hybrid-module/lib/module.ts) und use the synthesized folder as module.
