@@ -16,6 +16,8 @@ While this hybrid use-case isn't explictly supported in the Terraform CDK (`cdkt
 
 ![cdktf-and-terraform](./cdktf-and-terraform.png)
 
+See also this [blog post](https://dev.to/skorfmann/a-terraform-cdk-construct-which-doubles-as-native-terraform-module-447k).
+
 ## Examples
 
 - [cdktf construct](./examples/cdktf-example)
